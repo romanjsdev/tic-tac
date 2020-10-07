@@ -1,0 +1,74 @@
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.container { 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  flex:2;
+
+}
+.cell {
+  background: grey;
+  border:  1px solid black;
+  height: 40%;
+  width: 20%;
+   font-size: 2em;
+  padding: .5em;
+  text-align: center;
+  align-items: center;
+}
+
+.winCell{
+	background: red;
+}
+#one {
+	border-top: none;
+	border-left: none;	
+}
+#two{
+	border-top: none;
+}
+#three{
+	border-top: none;
+	border-right: none;
+}
+#four{
+	border-left: none;
+}
+#five{
+
+}
+#six{
+	border-right: none;
+}
+#seven{
+	border-bottom: none;
+	border-left: none;	
+}
+#eigth{
+	border-bottom: none;
+}
+#nine{
+	border-bottom: none;
+	border-right: none;	
+}
+
+.header{
+	margin-left: 50%;
+}
+
+.winrate{
+	background-color: green;
+	flex:1;
+}
+
+.newGameButton{
+	margin: 10px 0 10px 50%;
+}
